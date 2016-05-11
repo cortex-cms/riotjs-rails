@@ -1,5 +1,5 @@
 module Riot
   module Rails
-    VERSION = "2.0.15"
+    VERSION = "2.4.0"
   end
 end
