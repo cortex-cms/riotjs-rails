@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'tilt', '~> 1.1'
+  s.add_dependency 'tilt', '~> 2.0'
   s.add_dependency 'execjs'
   s.add_dependency 'actionview'
   s.add_development_dependency 'pry'
